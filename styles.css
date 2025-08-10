@@ -195,9 +195,7 @@ body {
     font-weight: 300;
     line-height: 28px;
     color: var(--color-light-gray);
-
     background-color: var(--color-dark);
-    
 }
 
 a, 
@@ -228,7 +226,32 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
 }
 
+.button {
+    display: inline-flex;
+    height: 38px;
+    padding-inline: 26px;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    align-items: center;
+    background-color: var(--color-white);
+    
+    font-family: var(--font-family-base);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-dark);
+    line-height: 2;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
 
+button:hover {
+    color: var(--color-light-gray);
+}
+
+.header-actions {
+    display: flex;
+    column-gap: 40px;
+}
 
 .header {
     display: flex;
