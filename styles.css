@@ -249,4 +249,14 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
     font-size: 12px;
     letter-spacing: 1.2px;
+    column-gap: 7px;
+    align-items: center;
+}
+
+.header-menu-link.is-current::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: currentColor;
+    border-radius: 50%;
 }
