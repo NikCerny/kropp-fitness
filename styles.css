@@ -301,6 +301,7 @@ button:hover {
     width: 40px;
     background-color: transparent;
     color: var(--color-white);
+    border-radius: 50%;
 }
 
 .header-burger-button-line {
