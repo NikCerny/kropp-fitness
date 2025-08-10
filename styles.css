@@ -256,6 +256,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     column-gap: 20px;
+    padding-inline: 32px;
 }
 
 .header-logo {
