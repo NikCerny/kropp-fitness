@@ -232,6 +232,7 @@ h1,h2,h3,h4,h5,h6 {
     padding-inline: 26px;
     border: var(--border);
     border-radius: var(--border-radius);
+    justify-content: center;
     align-items: center;
     background-color: var(--color-white);
     
@@ -247,6 +248,7 @@ h1,h2,h3,h4,h5,h6 {
 
 button:hover {
     color: var(--color-light-gray);
+    border-color: currentColor;
 }
 
 .header {
@@ -256,7 +258,7 @@ button:hover {
     column-gap: 20px;
 }
 
-.header-logo-image {
+.header-logo {
     flex-shrink: 0;
 }
 
@@ -287,4 +289,21 @@ button:hover {
 .header-actions {
     display: flex;
     column-gap: 40px;
+}
+
+.header-burger-button {
+    flex-direction: column;
+    row-gap: 4px;
+    padding-left: 8px;
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    color: var(--color-white);
+}
+
+.header-burger-button-line {
+    width: 6px;
+    height: 1px;
+    background-color: currentColor;
+    box-shadow: 18px 0 0 currentColor;
 }
